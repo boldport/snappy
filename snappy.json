@@ -1,0 +1,199 @@
+{
+  "components": {}, 
+  "config": {
+    "name": "snappy", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "first", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.5, 
+      "outline": 0.5, 
+      "pad": 0.5, 
+      "route": 0.5
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        157.11452, 
+        4.5890136
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: Snappy\nRevision: first\nDescription: \nLicense: MIT\nDesigner: Saar Drimer, Boldport, saar@boldport.com"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        157.31771, 
+        -7.8949868
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 2.4 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top, bottom, white\nSoldermask: top (black), bottom (green)\nSurface finish: lead free"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        153.50772, 
+        -18.357987
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      141.38643, 
+      -24.189986
+    ]
+  }, 
+  "drills": {}, 
+  "files": {
+    "routing-data": "snappy_routing.json", 
+    "routing-svg": "snappy.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "layer-control": {
+    "assembly": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "conductor": {
+      "hide": false, 
+      "lock": false, 
+      "pads": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }, 
+      "place": true, 
+      "pours": {
+        "hide": false, 
+        "lock": true, 
+        "place": true
+      }, 
+      "routing": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }
+    }, 
+    "dimensions": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "documentation": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "drills": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "origin": {
+      "hide": false, 
+      "lock": true, 
+      "place": false
+    }, 
+    "outline": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "placement": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "silkscreen": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "soldermask": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "solderpaste": {
+      "hide": true, 
+      "lock": true, 
+      "place": false
+    }
+  }, 
+  "outline": {
+    "shape": {
+      "height": 50, 
+      "type": "rect", 
+      "width": 280
+    }
+  }, 
+  "shapes": {
+    "SOLDER-BAR": {
+      "footprint": "solder-bar", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "rotate": 0, 
+      "show": false
+    }
+  }, 
+  "soldermask": {
+    "circle-buffer": 0.05, 
+    "path-scale": 1.05, 
+    "rect-buffer": 0.05
+  }, 
+  "solderpaste": {
+    "circle-buffer": -0.1, 
+    "path-scale": 0.9, 
+    "rect-buffer": -0.1
+  }, 
+  "stackup": {
+    "name": "two-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
+  }
+}
