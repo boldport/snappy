@@ -1,5 +1,16 @@
 {
-  "components": {}, 
+  "components": {
+    "E1": {
+      "footprint": "E-5-ONN1", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "rotate": 0, 
+      "show": true
+    }
+  }, 
   "config": {
     "name": "snappy", 
     "no-docs": false, 
