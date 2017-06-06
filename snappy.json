@@ -9,6 +9,26 @@
       ], 
       "rotate": 0, 
       "show": true
+    },
+    "DT1": {
+      "footprint": "DT1245", 
+      "layer": "top", 
+      "location": [
+        25, 
+        0
+      ], 
+      "rotate": 0, 
+      "show": true
+    },
+    "F16-1": {
+      "footprint": "F16", 
+      "layer": "top", 
+      "location": [
+        50, 
+        0
+      ], 
+      "rotate": 0, 
+      "show": true
     }
   }, 
   "config": {
