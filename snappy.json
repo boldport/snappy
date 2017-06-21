@@ -1,15 +1,5 @@
 {
   "components": {
-    "E1": {
-      "footprint": "E-5-ONN1", 
-      "layer": "top", 
-      "location": [
-        0, 
-        0
-      ], 
-      "rotate": 0, 
-      "show": true
-    },
     "DT1": {
       "footprint": "DT1245", 
       "layer": "top", 
@@ -18,8 +8,18 @@
         0
       ], 
       "rotate": 0, 
-      "show": true
-    },
+      "show": false
+    }, 
+    "E1": {
+      "footprint": "E-5-ONN1", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "rotate": 0, 
+      "show": false
+    }, 
     "F16-1": {
       "footprint": "F16", 
       "layer": "top", 
@@ -28,7 +28,7 @@
         0
       ], 
       "rotate": 0, 
-      "show": true
+      "show": false
     }
   }, 
   "config": {
